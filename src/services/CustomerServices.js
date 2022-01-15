@@ -1,12 +1,12 @@
-import axios from "axios";
+// import axios from "axios";
 
-const customer_endpoint = "http://localhost:8181/client"
+// const customer_endpoint = "http://localhost:8181/client"
 
-class CustomerServices{
+// class CustomerServices{
 
-    getClients(){
-        return axios.get(customer_endpoint);
-    }
-}
+//     getClients(){
+//         return axios.get(customer_endpoint);
+//     }
+// }
 
-export default new CustomerServices();
+// export default new CustomerServices();

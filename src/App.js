@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import CleanerComponent from './components/CleanerComponent';
 import ClientComponent from './components/ClientComponent';
+// import LoginComponent from './components/LoginComponent';
+import RegisterUserComponent from './components/RegisterUserComponent';
 
 // const GetCleaners = () => {
 
@@ -34,8 +36,11 @@ import ClientComponent from './components/ClientComponent';
 function App() {
   return (
     <div className="App">
-      <CleanerComponent />
+      {/* <CleanerComponent />
       <ClientComponent />
+      <TestComponent /> */}
+      <RegisterUserComponent />
+      {/* <LoginComponent /> */}
     </div>
   );
 }

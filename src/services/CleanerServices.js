@@ -1,23 +1,23 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-const cleaner_endpoint = "http://localhost:8181/get-cleaners";
+// const cleaner_endpoint = "http://localhost:8181/get-cleaners";
 
-class CleanerServices{
+// class CleanerServices{
  
 
-    getCleaners(){
-        return axios.get(cleaner_endpoint);
+//     getCleaners(){
+//         return axios.get(cleaner_endpoint);
         
-    }
+//     }
 
-    addCleaner(){
+//     addCleaner(){
 
-    }
+//     }
 
-    deleteCleaner(){
+//     deleteCleaner(){
 
-    }
+//     }
     
-}
+// }
 
-export default new CleanerServices();
+// export default new CleanerServices();
